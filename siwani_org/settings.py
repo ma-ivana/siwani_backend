@@ -50,7 +50,7 @@ SECRET_KEY = find_or_create_secret_key()
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['siwani.herokuapp.com/', '127.0.0.1:8000']
+ALLOWED_HOSTS = ['siwani.herokuapp.com/', '127.0.0.1']
 
 
 # Application definition
@@ -157,3 +157,4 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'

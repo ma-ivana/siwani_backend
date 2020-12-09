@@ -14,8 +14,8 @@ from .serializers import *
 
 # context = {'comunidades': comunidades, 'delegadas': delegadas, 'productos': productos, 'pedidos': pedidos}
 
-# def home(request):
-#   return render(request, 'comunidades/home.html')
+def home(request):
+  return render(request, 'comunidades/home.html')
 
 # # def comunidades(request):  
 # #   return render(request, 'comunidades/comunidades.html', context)
