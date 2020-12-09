@@ -1,1 +1,1 @@
-web: gunicorn tutorial_two.wsgi --log-file -
+web: gunicorn siwani_org.wsgi --log-file -
